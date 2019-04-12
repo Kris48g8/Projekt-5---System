@@ -11,4 +11,7 @@ body {
     margin-right: auto;
 }
 
-
+section {
+    height: 1000px;
+    background-color: rebeccapurple;
+}
