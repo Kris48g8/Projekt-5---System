@@ -11,12 +11,54 @@ body {
     margin-right: auto;
 }
 
+p {
+    font-family: "heebo", sans-serif;
+    font-size: 16px;
+}
+
+.bluebox-two {
+    float: right;
+    margin-right: 3%;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+h3 {
+     font-family: "Roboto Mono", sans-serif;
+    font-size: 20x;
+    font-weight: 700;
+}
+
+
+
 .logo {
     float: right;
     margin-top: 10px;
+    clear: right;
 }
 
 /* Navigationsbar */
+
+
+.fix-box {
+    position: sticky;
+    top: 0px;
+    
+}
+
 
 .topnav {
     width: 100%;
@@ -26,8 +68,13 @@ body {
     margin-top: 20px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    position: relative
+    position: relative;
+    
 }
+
+
+
+
 
 /* Liste */
 
@@ -35,7 +82,10 @@ body {
 
 ul {
     width: 100%;
-    
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
     
    
@@ -50,11 +100,81 @@ li {
     font-family: "Roboto Mono", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 3%;
-    padding-right: 3%;
-    vertical-align: middle;
+    padding-left: 3.3%;
+    padding-right: 3.3%;    
+}
+
+li.active {
+    color: #AA80AB;
+}
+
+/* Grøn underbjælke */
+
+.navbjaelke {
+    height: 10px;
+    width: 100%;
+    float: left;
+    background-color: #A6BB75;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+/* Venstre kolonne */
+
+
+.leftcolumn {
+    float: left;
+    margin-top: 20px;
+    width: 48%;
     
-   
+}
+
+.greybox {
+    width: 100%;
+    height: 120px;
+    background-color: #E8E8E8;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.forside-box, .forside-tekst, .bluebox , .bluebox-one {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.greybox, .bluebox {
+    padding-top: 1px;
+}
+
+.btn-two {
+    width: 22%;
+    float: right;
+    margin-right: 9px;
+    height: 25px;
+    background-color: #A6BB75;
+    border-radius: 2px;
+    color: white;
+    font-family: "heebo", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7px;
+}
+
+/* højre kolonne */
+
+.rightcolumn {
+    float: right;
+    margin-top: 20px;
+    width: 48%;
     
+}
+
+.bluebox {
+    width: 100%;
+    height: 120px;
+    background-color: #6696AC;
+    border-radius: 2px;
+    margin-top: 20px;
+    color: white;
     
 }
