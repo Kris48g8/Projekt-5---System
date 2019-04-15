@@ -9,7 +9,9 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
 
 p {
     font-family: "heebo", sans-serif;
@@ -45,34 +47,40 @@ h3 {
 
 
 .logo {
-    float: right;
+    
     margin-top: 10px;
-    clear: right;
+    margin-bottom: 20px;
+   
+    
 }
 
 /* Navigationsbar */
 
 
-.fix-box {
-    position: sticky;
-    top: 0px;
-    
-}
 
 
 .topnav {
     width: 100%;
     height: 40px;
     background-color: #E8E8E8;
-    float: left;
-    margin-top: 20px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
     
+    
+    
+    
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
 
+.sticky + .fixbox {
+   
+}
 
 
 
@@ -87,11 +95,15 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     
-    
-   
-    
-    
 }
+
+.fixbox {
+  
+}
+
+
+
+
 
 /* SKAL GØRES RESPONSIVE */
 
@@ -113,10 +125,11 @@ li.active {
 .navbjaelke {
     height: 10px;
     width: 100%;
-    float: left;
     background-color: #A6BB75;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+    margin-top: 40px;
+    float: left;
 }
 
 /* Venstre kolonne */
