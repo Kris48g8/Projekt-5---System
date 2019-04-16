@@ -4,65 +4,232 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/sporgeskema.css">
+    <link rel="stylesheet" href="/style/css.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo|Roboto+Mono" rel="stylesheet">
 </head>
 <body>
-<section class="leftcolumn">
-    <h1>Her kan du besvare dit spørgeskema</h1> <br>
-    <p class="psporg">Sæt et &#x2714; ud for hvert af de nedstående sætninger, hvis du mener at du udviser den adfærd mindst 2gange pr. uge. Giv gerne et eksempel på hvad du gør.</p>
-  
-    <h2 class="h2-hojtdrive">Højt drive</h2>
-    <article class="sporgsmalcontainer">
-        <h4 class="h4sporgsmal">Jeg arbejder med mit eget fagområde uden for arbejdstiden.</h4>
-        <input type="checkbox" id="sporgsmalcheck1">
-        <label for="sporgsmalcheck1"></label>
-        <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-        <p class="eksempelp">Eksempel: Når jeg har fri arbejder jeg på mine egne projekter.</p>
-    </article>
-    <article class="sporgsmalcontainer">
-        <h4 class="h4sporgsmal">Jeg opsøger ny viden inden for mit eget og andres fagområder i og udenfor arbejdtiden.</h4>
-        <input type="checkbox" id="sporgsmalcheck2">
-        <label for="sporgsmalcheck2"></label>
-        <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-        <p class="eksempelp">Eksempel: jeg læser fagbøger for at udvide min horisont.</p>
-    </article>
-    <article class="sporgsmalcontainer">
-        <h4 class="h4sporgsmal">Jeg deler min nye tilegnet viden med kollegaer og dokumenterer dette.</h4>
-        <input type="checkbox" id="sporgsmalcheck3">
-        <label for="sporgsmalcheck3"></label>
-        <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-        <p class="eksempelp">Eksempel: Best practice deles på Slack/Confluence.</p>
-    </article>
-    <article class="sporgsmalcontainer">
-        <h4 class="h4sporgsmal">Jeg holder mig opdateret omkring apps, design og arbejdmetoder.</h4>
-        <input type="checkbox" id="sporgsmalcheck4">
-        <label for="sporgsmalcheck4"></label>
-        <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-        <p class="eksempelp">Eksempel: Jeg læser bøger, artikler, følger med på Linkdin.</p>
-    </article>
-    <article class="sporgsmalcontainer">
-        <h4 class="h4sporgsmal">Jeg opsøger selv nye opgaver der skaber værdi for House of Code eller giver input til eksisterende opgaver der skaber værdi for House of Code eller vores samarbejdspartnere.</h4>
-        <input type="checkbox" id="sporgsmalcheck5">
-        <label for="sporgsmalcheck5"></label>
-        <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-        <p class="eksempelp">Eksempel: Når jeg er færdig med mine opgaver, spørger jeg om andre har brug for hjælp.</p>
-    </article>
-</section>
-
-<section class="rightcolumn">
-    <article class="blueboxsporg"></article>
-    
- 
-    
-</section> 
-
    
-    <section class="wrapper">
-        <article>left</article>
-        <article>right</article>
+   
+      <a href="hjem.html"> <img src="../images/HoC%20logo.png" class="logo"></a>
+    
+    
+    <section class="fixbox-two">
+    <article id="navbar">
+    
+    
+    <article class="topnav">
+       <article>
+        <ul>
+          <a href="hjem.html">  <li>Hjem</li></a>
+          <a href="sporgeskema.html" >  <li class="active">Dit spørgeskema</li></a>
+          <a href=""><li>Din udvikling</li></a>
+          <a href=""> <li>Kollegaer</li></a>
+          <a href="">  <li>Book tid</li></a>
+          <a href="../index.html"> <li>Log ud</li></a>
+        </ul>
+        
+            
+            
+    </article>
+    <article class="navbjaelke"></article>
+   
+   
+    </article></article>
+    
     </section>
-          
-                        
-                                    
+    
+    
+    <div class="topnav-two">
+  <a href="#home" >Hjem</a>
+  <div id="myLinks">
+    <a href="#dit-spoergeskema" >Dit spørgeskema</a>
+    <a href="#din-udvikling">Din udvikling</a>
+    <a href="#kollegaer">Kolegaer</a>
+    <a href="#book-tid">Book tid</a>
+    <a href="#log-ud">Log ud</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunctionTwo()">
+    <p class="burger-style">&#9776;</p>
+  </a>
+</div>
+   
+    
+     <script src="../javaScript/javaScript.js"></script>
+   
+   
+    <h1>Her kan du besvare dit spørgeskema</h1> <br>
+    <p class="psporg">Sæt et &#x2714; ud for hvert af de nedstående sætninger, hvis du mener at du udviser den adfærd mindst 2 gange pr. uge. Giv gerne et eksempel på hvad du gør.</p>  
+    <h2 class="h2-hojtdrive">Højt drive</h2>
+    <h4 class="h4sporgsmaludenfor">Jeg arbejder med mit eget fagområde uden for arbejdstiden.</h4>
+    <section class="wrapper">
+        <article class="left">
+            <input type="checkbox" id="sporgsmalcheck1">
+            <label for="sporgsmalcheck1"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Når jeg har fri arbejder jeg på mine egne projekter.</p>
+            <h4 class="h4sporgsmal">Jeg opsøger ny viden inden for mit eget og andres fagområder i og udenfor arbejdtiden.</h4>
+            
+            <input type="checkbox" id="sporgsmalcheck2">
+            <label for="sporgsmalcheck2"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: jeg læser fagbøger for at udvide min horisont.</p>
+            
+            <h4 class="h4sporgsmal">Jeg deler min nye tilegnet viden med kollegaer og dokumenterer dette.</h4> 
+            <input type="checkbox" id="sporgsmalcheck3">
+            <label for="sporgsmalcheck3"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Best practice deles på Slack/Confluence.</p>
+            
+            <h4 class="h4sporgsmal">Jeg holder mig opdateret omkring apps, design og arbejdmetoder.</h4>
+            <input type="checkbox" id="sporgsmalcheck4">
+            <label for="sporgsmalcheck4"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg læser bøger, artikler, følger med på Linkdin.</p>
+            
+            <h4 class="h4sporgsmal">Jeg opsøger selv nye opgaver der skaber værdi for House of Code eller giver input til eksisterende opgaver der skaber værdi for House of Code eller vores samarbejdspartnere.</h4>
+            <input type="checkbox" id="sporgsmalcheck5">
+            <label for="sporgsmalcheck5"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Når jeg er færdig med mine opgaver, spørger jeg om andre har brug for hjælp.</p>
+        </article>
+        <article class="right">
+            <article class="blueboxsporg">
+                <p>Vi er passionerede appudviklere der brænder for at levere awesome løsninger.</p>
+            </article>
+            <img src="/images/person_ub.png" alt="hjerte" class="sporgeskemaimg">
+        </article> 
+    </section>
+    
+    <h2 class="h2-staerktteam">Et stærkt team
+</h2>
+    <h4 class="h4sporgsmaludenfor">Jeg deler min nye tilegnet viden med kolleger og dokumenterer dette.</h4>
+    <section class="wrapper">
+        <article class="left">
+            <input type="checkbox" id="sporgsmalcheck6">
+            <label for="sporgsmalcheck6"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg opsøger selv pair programming.</p>
+            
+            <h4 class="h4sporgsmal">Jeg omgås med mine kolleger i og uden for arbejdstiden.</h4>
+            <input type="checkbox" id="sporgsmalcheck7">
+            <label for="sporgsmalcheck7"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Tager i biografen, walk n’ talk, træner sammen.</p>
+            
+            <h4 class="h4sporgsmal">Jeg søger input på mine opgaver fra mine kolleger.</h4> 
+            <input type="checkbox" id="sporgsmalcheck8">
+            <label for="sporgsmalcheck8"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Inden jeg afleverer en opgave, får jeg altid en kollegas øjne til at se på det</p>
+            
+            <h4 class="h4sporgsmal">Jeg giver feedback til mine kolleger på deres adfærd. (konstruktiv såvel som positiv)</h4>
+            <input type="checkbox" id="sporgsmalcheck9">
+            <label for="sporgsmalcheck9"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Tak fordi du altid tager i mod opgaver med et smil (Siges til en kollega)</p>
+            
+            <h4 class="h4sporgsmal">Jeg går også op i at være en god ambassadør for House of Code overfor de eksterne relationer.Et stærkt team.</h4>
+            <input type="checkbox" id="sporgsmalcheck10">
+            <label for="sporgsmalcheck10"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg omtaler aldrig personer eller virksomheden negativt i eksterne relationer</p>
+            
+        </article>
+        <article class="right">
+            <article class="blueboxsporg">
+                <p>Vi spiller hinanden bedre. Derfor bygger vi på tætte relationer og et stærkt samarbejde, internt såvel som eksternt.</p>
+            </article>
+            <img src="/images/brackets_ub.png" alt="hjerte" class="sporgeskemaimg">
+        </article>
+        
+        
+    </section>
+    
+    <h2 class="h2-godkarma">God karma</h2>
+    <h4 class="h4sporgsmaludenfor">Jeg opsøger miner kolleger for at hjælpe dem.</h4>
+    <section class="wrapper">
+        <article class="left">
+            <input type="checkbox" id="sporgsmalcheck11">
+            <label for="sporgsmalcheck11"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg spørger mine kollegaer, når jeg kan se de er gået død i en opgave, om jeg skal hjælpe</p>
+            
+            <h4 class="h4sporgsmal">Jeg bidrager med en god og positiv stemning hos House of Code.</h4>
+            <input type="checkbox" id="sporgsmalcheck12">
+            <label for="sporgsmalcheck12"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel:  Siger godmorgen og farvel.</p>
+            
+            <h4 class="h4sporgsmal">Jeg gør noget godt for andre uden for House of Code.</h4> 
+            <input type="checkbox" id="sporgsmalcheck13">
+            <label for="sporgsmalcheck13"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Arbejder frivilligt - fx Røde Kors, Coding Pirates.</p>
+            
+            <h4 class="h4sporgsmal">eg møder mine kolleger individuelt for at opnå bedst muligt fællesskab.</h4>
+            <input type="checkbox" id="sporgsmalcheck14">
+            <label for="sporgsmalcheck14"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg tilpasser min kommunikation alt efter hvem jeg snakker med til trods for forskelligheder af meninger.</p>
+            
+            <h4 class="h4sporgsmal">Jeg gør en indsats i at arbejde med mig selv.</h4>
+            <input type="checkbox" id="sporgsmalcheck15">
+            <label for="sporgsmalcheck15"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg modtager feedback uden at sige andet end TAK.</p>
+            
+        </article>
+        <article class="right">
+            <article class="blueboxsporg">
+                <p>Vi møder alle med tillid og åbenhed; det gør en forskel.</p>
+            </article>
+            <img src="/images/Hjerte_ub.png" alt="hjerte" class="sporgeskemaimg">
+        </article>
+        
+    </section>  
+      
+    <h2 class="h2-hadetsjovt">Ha’ det sjovt</h2>
+    <h4 class="h4sporgsmaludenfor">Jeg skaber eller oplever glæde når jeg er på arbejde.</h4>
+    <section class="wrapper">
+        <article class="left">
+            <input type="checkbox" id="sporgsmalcheck16">
+            <label for="sporgsmalcheck16"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg spørger en kollega om han/hun vil spille pool eller lignende.</p>
+            
+            <h4 class="h4sporgsmal">Jeg benytter mig af de muligheder, der stilles til rådighed af House of Code.</h4>
+            <input type="checkbox" id="sporgsmalcheck17">
+            <label for="sporgsmalcheck17"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel:  Badminton, personaleevents, “legerum”.</p>
+            
+            <h4 class="h4sporgsmal">Jeg skaber nye muligheder for at vi kan have det sjovt sammen.</h4> 
+            <input type="checkbox" id="sporgsmalcheck18">
+            <label for="sporgsmalcheck18"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Aktivitetsudvalg, foreslår noget vi lave sammen.</p>
+            
+            <h4 class="h4sporgsmal">Jeg når altid mine opgaver for ugen.</h4>
+            <input type="checkbox" id="sporgsmalcheck19">
+            <label for="sporgsmalcheck19"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Holder mig inden for deadlines.</p>
+            
+            <h4 class="h4sporgsmal">Jeg bliver på arbejde til mine opgaver for dagen er udført.</h4>
+            <input type="checkbox" id="sporgsmalcheck20">
+            <label for="sporgsmalcheck20"></label>
+            <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
+            <p class="eksempelp">Eksempel: Jeg bliver altid til arbejdet er færdigt.</p>
+            
+        </article>
+        <article class="right">
+            <article class="blueboxsporg">
+                <p>Vi har det sjovt, men arbejder hårdt og når vores mål.</p>
+            </article>
+            <img src="/images/talebobble_ub.png" alt="hjerte" class="sporgeskemaimg">
+        </article>
+        
+    </section>
+    
+    
 </body>

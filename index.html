@@ -22,10 +22,10 @@
        <article class="loginform">
             <h3 class="h3login">Brugernavn</h3>
             <input type="text" class="inputlogin" placeholder="Skriv brugernavn">
-            <a href="" class="glemt">Glemt brugernavn?</a>
+            <a href="" class="glemt" onclick="glemtbruger()" >Glemt brugernavn?</a>
             <h3 class="h3login">Adgangskode</h3>
             <input type="password" class="inputlogin" placeholder="Skriv adgangskode">
-            <a href="" class="glemt">Glemt adgangskode?</a>
+            <a href="" class="glemt" onclick="glemtkode()">Glemt adgangskode</a>
         </article>
         
         <!-- Midlertidig løsning til at komme videre fra log ind siden, <form></form> som ligger rundt om log ind knappen -->
@@ -34,5 +34,6 @@
             <button class="btn-one" type="submit" >Log ind</button>
         </form>
     </section>
+    <script src="javaScript/index.js"></script>
 </body>
 </html>
