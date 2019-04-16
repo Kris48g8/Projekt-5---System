@@ -11,16 +11,7 @@ body {
     margin-right: auto;
 }
 
-p {
-    font-family: "heebo", sans-serif;
-    font-size: 16px;
-}
-
-.bluebox-two {
-    float: right;
-    margin-right: 3%;
-    font-size: 14px;
-}
+/* text */
 
 h1 {
     font-family: "Roboto Mono", sans-serif;
@@ -37,154 +28,36 @@ h2 {
 }
 
 h3 {
-     font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-size: 20x;
     font-weight: 700;
 }
 
-
-
-.logo {
-    float: right;
-    margin-top: 10px;
-    clear: right;
-}
-
-/* Navigationsbar */
-
-
-.fix-box {
-    position: sticky;
-    top: 0px;
-    
-}
-
-
-.topnav {
-    width: 100%;
-    height: 40px;
-    background-color: #E8E8E8;
-    float: left;
-    margin-top: 20px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    position: relative;
-    
-}
-
-
-
-
-
-/* Liste */
-
-
-
-ul {
-    width: 100%;
-    position: absolute;
-     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
-   
-    
-    
-}
-
-/* SKAL GØRES RESPONSIVE */
-
-li {
-    display: inline-block;
-    font-family: "Roboto Mono", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    padding-left: 3.3%;
-    padding-right: 3.3%;    
-}
-
-li.active {
-    color: #AA80AB;
-}
-
-/* Grøn underbjælke */
-
-.navbjaelke {
-    height: 10px;
-    width: 100%;
-    float: left;
-    background-color: #A6BB75;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-}
-
-/* Venstre kolonne */
-
-
-.leftcolumn {
-    float: left;
-    margin-top: 20px;
-    width: 48%;
-    
-}
-
-.greybox {
-    width: 100%;
-    height: 120px;
-    background-color: #E8E8E8;
-    border-radius: 2px;
-    margin-top: 20px;
-}
-
-.forside-box, .forside-tekst, .bluebox , .bluebox-one {
-    margin-left: 10px;
-    margin-top: 15px;
-}
-
-.greybox, .bluebox {
-    padding-top: 1px;
-}
-
-.btn-two {
-    width: 22%;
-    float: right;
-    margin-right: 9px;
-    height: 25px;
-    background-color: #A6BB75;
-    border-radius: 2px;
-    color: white;
+p {
     font-family: "heebo", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 7px;
+    font-size: 16px;
 }
-
-/* højre kolonne */
-
-.rightcolumn {
-    float: right;
-    margin-top: 20px;
-    width: 48%;
-    
-}
-
-.bluebox {
-    width: 100%;
-    height: 120px;
-    background-color: #6696AC;
-    border-radius: 2px;
-    margin-top: 20px;
-    color: white;
-    
-}
-
-
-/* spørgeskema */
 
 .h2-hojtdrive{
    color: #A6BB75;
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.h2-staerktteam{
+    color: #AA80AB;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.h2-godkarma{
+    color: #D26D75;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.h2-hadetsjovt{
+    color: #6696AC;
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 
@@ -194,20 +67,8 @@ h4{
 }
 
 .psporg{
-    width: 100%;
-}
-
-/* input */
-
-.sporgsmalinput{
-    width: 80%;
-    height: 45px;
-    background-color: #e8e8e8;
-    border: 0px;
-    border-radius: 2px;
-    padding-left: 10px;
+    width: 45%;
     margin-left: 10px;
-    font-family: "heebo", sans-serif;
 }
 
 .eksempelp{
@@ -223,15 +84,56 @@ h4{
     width: 70%;
     
 }
+.h4sporgsmaludenfor{
+    margin-left: 50px;
+    width: 40%;
+    
+}
+/* grid */
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    grid-template-rows: auto;
+    grid-column-gap: 2%;
+}
 
-.blueboxsporg {
+.left{
+}
+.right{
+    text-align: center;
+}
+
+/* bluebox sporg */
+
+.blueboxsporg{
     width: 100%;
-    height: 50px;
     background-color: #6696AC;
     border-radius: 2px;
-    margin-top: 62%;
     color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+/* Billeder */
+
+.sporgeskemaimg{
+    width: 280px;
+    margin-top: 150px;
+    
+}
+
+/* input */
+.sporgsmalinput{
+    width: 80%;
+    height: 45px;
+    background-color: #e8e8e8;
+    border: 0px;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: "heebo", sans-serif;
 }
 
 /* spørgeskema check knap */
@@ -245,7 +147,6 @@ input[type=checkbox] {
 
 input[type=checkbox] + label:before {
     content: "\2714";
-    border: solid 1px #696969;
     display: inline-block;
     width: 25px;
     height: 20px;
@@ -255,6 +156,7 @@ input[type=checkbox] + label:before {
     color: transparent;
     background-color: #e8e8e8;
     transition: .2s;
+    margin-left: 10px;
 }
 
 input[type=checkbox]:checked + label:before{
@@ -266,25 +168,21 @@ input[type=checkbox] + label:active:before{
     transform:scale(.8)
 }
 
-
-
-
-
-
-
-
-
-
-
-/* grid try */
-
-.wrapper{
-    display: grid;
-    grid-template-columns: 200px 200px;
-    border: 1px solid black;
+@media screen and (max-width:768px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto;
+    }
+    .sporgeskemaimg{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 180px;
+    }
+    .psporg{
+        width: 100%;
+    }
+    .h4sporgsmaludenfor{
+        width: 70%;
+    }
 }
-
-
-
-
-
