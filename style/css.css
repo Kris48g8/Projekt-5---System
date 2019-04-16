@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
     
+/* Generel tekst og headlines */
 
 body {
     width: 90%;
@@ -54,6 +55,7 @@ h3 {
 
 .fixbox-two {
     height: 53px;
+    z-index: 11;
 }
 
 .topnav {
@@ -63,6 +65,7 @@ h3 {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
+    
 }
 
 .sticky {
@@ -87,23 +90,27 @@ h3 {
 }
 
 ul {
-    width: 100%;
+    width: 95%;
     position: absolute;
-     top: 50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: table;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 
+
 li {
-    display: inline-block;
+    display: block;
     font-family: "Roboto Mono", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    vertical-align: middle;
-    display: table-cell
-    
+    flex: 0 1 auto;
+    list-style-type: none;
 }
 
 li.active {
@@ -117,7 +124,7 @@ li.active {
 .leftcolumn {
     float: left;
     margin-top: 20px;
-    width: 48%;
+    width: 49.1%;
     margin-bottom: 20px;
 }
 
@@ -127,6 +134,7 @@ li.active {
     background-color: #E8E8E8;
     border-radius: 2px;
     margin-top: 20px;
+    z-index: -2
 }
 
 .forside-box, .forside-tekst, .bluebox-one {
@@ -136,13 +144,14 @@ li.active {
 
 .greybox, .bluebox {
     padding-top: 1px;
+    position: relative;
 }
 
 .btn-two {
     width: 22%;
     float: right;
     margin-right: 9px;
-    height: 25px;
+    height: 34px;
     background-color: #A6BB75;
     border-radius: 2px;
     color: white;
@@ -150,14 +159,27 @@ li.active {
     font-weight: 400;
     text-align: center;
     margin-top: 7px;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translate(-50%, -50%);
 }
+
+.knaptekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+
 
 /* højre kolonne */
 
 .rightcolumn {
     float: right;
     margin-top: 20px;
-    width: 48%;
+    width: 49.1%;
 }
 
 .bluebox {
@@ -167,18 +189,104 @@ li.active {
     border-radius: 2px;
     margin-top: 20px;
     color: white;
+    z-index: -3;
     
 }
 
 .bluebox-two {
-    float: right;
     margin-right: 15px;
+     position: absolute;
+    top: 85%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 40%;
 }
 
 
-/* Small pc screen */
+.topnav-two {
+    display: none;
+}
 
-@media only and (min-width: 768px) {
-    body {background-color: blueviolet}
+/* Link styling */
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/* Small PC/tablet screen  */
+
+@media only screen and (max-width: 1024px) {
+    li {font-size: 15px;}
+    h2, h1 {font-size: 20px;}
+    p {font-size: 14px;}
+    .btn-two {font-size: 14px; width: 25%; height: 40px;}
+    .forside-box {font-size: 15px;}
+    .bluebox-two {font-size: 10px;}
+    .knaptekst {font-size: 14px;}
+    .leftcolumn {width: 100%;}
+    .rightcolumn {width: 100%; margin-bottom: 20px;}
+    
+}
+
+/* Mobil/tablet */
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    li {font-size: 15px;}
+    .topnav-two {display: inherit;
+    z-index: 10;}
+    
+    .fixbox-two {display: none;
+     overflow: hidden;
+     background-color: #333;
+     position: relative;}
+    
+    .topnav-two {
+    width: 100%;
+    height: 40px;
+    background-color: #E8E8E8;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+}
+
+    
+.topnav-two #myLinks {
+  display: none;
+}
+
+.topnav-two a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+    background-color: #A6BB75;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 700;
+}
+
+.topnav-two a.icon {
+  background: #A6BB75;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+    
+}
+
+
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+    
+.burger-style {transform: scale(2)}
     
 }
