@@ -59,6 +59,10 @@ h3 {
     z-index: 11;
 }
 
+.fixboxnav {
+    height: 90px;
+}
+
 .topnav {
     width: 100%;
     height: 40px;
@@ -66,7 +70,11 @@ h3 {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
-    
+}
+
+.udvidetnav {
+    height: 90px;
+    z-index: -11;
 }
 
 .sticky {
@@ -90,7 +98,7 @@ h3 {
     float: left;
 }
 
-ul {
+.center {
     width: 95%;
     position: absolute;
     top: 50%;
@@ -220,6 +228,52 @@ a:visited {
 
 /* spørgeskema */
 
+.skemabjaelke {
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.skemaul {
+     width: 85%;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.skemanav {
+    font-size: 15px;
+    color: white;
+}
+
+.underbjaelke {
+    width: 25%;
+    height: 10px;
+    float: left;
+    margin-top: 35px;
+}
+
+
+.green {
+    background-color: #A6BB75;
+}
+
+.blue {
+    background-color: #6696AC;
+}
+
+.purple {
+    background-color: #AA80AB;
+}
+
+.red {
+    background-color: #D26D75;
+}
 
 .h2-hojtdrive{
    color: #A6BB75;
