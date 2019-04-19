@@ -456,12 +456,6 @@ h4{
     grid-template-rows: auto;
     grid-column-gap: 2%;
 }
-.kolnested{
-    display: grid;
-    grid-template-columns: repeat(3,30%);
-    grid-template-rows: auto;
-    grid-column-gap: 3%
-}
 
 .left{
 }
@@ -517,12 +511,12 @@ input[type=checkbox] + label:before {
     width: 25px;
     height: 20px;
     text-align: center;
-    padding-top: 3px;
+    padding-bottom: 3px;
     border-radius: 2px;
     color: transparent;
     background-color: #e8e8e8;
     transition: .2s;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 input[type=checkbox]:checked + label:before{
@@ -589,18 +583,52 @@ input[type=checkbox] + label:active:before{
 
 .kolbilleder{
     width: 100%;
-    margin-bottom: 5px;
     border-radius: 2px;
 }
 .kolp{
-    margin-bottom: 10px;
     text-align: center;
 }
+.kolright{
+    text-align: center;
+}
+.kolvalg{
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
 
+.kolwrapper{
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    grid-template-rows: auto;
+    grid-column-gap: 2%;
+    
+}
+.kolnested{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: auto;
+    grid-column-gap: 3%;
+    margin-left: 5px;
+}
 
+.btn-kol{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: #A6BB75;
+    font-family: "heebo";
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 2px;
+    border: 0px;
+    margin-top: 10px;
+}
 
-
-
+.kollabel{
+    font-family: "heebo", sans-serif;
+}
 
 
 
@@ -731,11 +759,10 @@ input[type=checkbox] + label:active:before{
     border-top-right-radius: 2px;
     position: relative;
 }
-
     
-.topnav-two #myLinks {
-  display: none;
-}
+    .topnav-two #myLinks {
+    display: none;
+    }
 
 .topnav-two a {
   color: white;
@@ -756,7 +783,11 @@ input[type=checkbox] + label:active:before{
   top: 0;
     
 }
-
+.kolwrapper{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto;
+    }
 
 .active {
   background-color: #4CAF50;
