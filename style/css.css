@@ -43,6 +43,15 @@ h3 {
 }
 
 
+h5 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Roboto mono" sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
 
 
 
@@ -253,7 +262,7 @@ li.active {
     margin-top: 7px;
     position: absolute;
     top: 75%;
-    left: 85%;
+    left: 88%;
     transform: translate(-50%, -50%);
 }
 
@@ -679,12 +688,10 @@ input[type=checkbox] + label:active:before{
 }
 
 .calender-heart {
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    font-size: 12px;
-    margin-top: 20px;
+    text-align: center;
+     width: 280px;
+    margin-top: 150px;
+    
 }
 
 
@@ -694,7 +701,7 @@ input[type=checkbox] + label:active:before{
     li {font-size: 15px;}
     h2, h1 {font-size: 20px;}
     p {font-size: 14px;}
-    .btn-two {font-size: 14px; width: 25%; height: 40px;}
+    .btn-two {font-size: 14px; width: 25%; height: 40px; left: 87%;}
     .forside-box {font-size: 15px;}
     .bluebox-two {font-size: 10px;}
     .knaptekst {font-size: 14px;}
@@ -783,7 +790,11 @@ input[type=checkbox] + label:active:before{
       display: block;
       margin-left: auto;
       margin-right: auto;
-}
+    }
+    
+    .btn-two {
+        left: 85%;
+    }
 }
 
 
