@@ -61,6 +61,7 @@ h3 {
 
 .fixboxnav {
     height: 90px;
+    z-index: -11;
 }
 
 .topnav {
@@ -70,11 +71,11 @@ h3 {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
+    
 }
 
-.udvidetnav {
+.extended {
     height: 90px;
-    z-index: -11;
 }
 
 .sticky {
@@ -275,14 +276,6 @@ a:visited {
     background-color: #D26D75;
 }
 
-.udvidetnav {
-    height: 90px;
-    z-index: -13;
-}
-
-.fixboxnav {
-    height: 90px;
-}
 
 .h2-hojtdrive{
    color: #A6BB75;
