@@ -275,6 +275,15 @@ a:visited {
     background-color: #D26D75;
 }
 
+.udvidetnav {
+    height: 90px;
+    z-index: -13;
+}
+
+.fixboxnav {
+    height: 90px;
+}
+
 .h2-hojtdrive{
    color: #A6BB75;
     margin-top: 30px;
