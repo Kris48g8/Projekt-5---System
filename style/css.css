@@ -252,11 +252,36 @@ a:visited {
     color: white;
 }
 
+.skemanav-two {
+    font-size: 15px;
+    color: white;
+}
+
+.skemaul-two {
+    width: 75%;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.underbjaelke-two {
+    height: 10px;
+    float: left;
+    margin-top: 40px;
+    width: 50%;
+}
+
 .underbjaelke {
     width: 25%;
     height: 10px;
     float: left;
-    margin-top: 35px;
+    margin-top:40px;
 }
 
 
@@ -276,6 +301,10 @@ a:visited {
     background-color: #D26D75;
 }
 
+
+.opacity {
+    opacity: 0.6;
+}
 
 .h2-hojtdrive{
    color: #A6BB75;
@@ -474,6 +503,25 @@ input[type=checkbox] + label:active:before{
 .kolp{
     margin-bottom: 10px;
     text-align: center;
+}
+
+
+
+/* Kalender */
+
+.calender {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.calender-heart {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 
