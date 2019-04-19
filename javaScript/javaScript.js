@@ -51,7 +51,6 @@ window.onclick = function(event) {
 
 
 
-
 /* index alert/prompt */
 
 function glemtbruger() {
@@ -59,7 +58,7 @@ function glemtbruger() {
 }
 
 function glemtkode() {
-    let bruger = prompt("Hvis du har glemt din kode, indtast din email her:");
+    let kode = prompt("Hvis du har glemt din kode, indtast din email her:");
 }
 
 
