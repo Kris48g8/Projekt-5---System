@@ -148,7 +148,8 @@ h5 {
 
 .fixbox-two {
     height: 53px;
-    z-index: 11;
+    position: relative;
+    z-index: 200
 }
 
 .fixboxnav {
@@ -227,6 +228,7 @@ li.active {
     float: left;
     width: 49.1%;
     margin-bottom: 30px;
+    z-index: -10;
 }
 
 .greybox {
@@ -235,7 +237,6 @@ li.active {
     background-color: #E8E8E8;
     border-radius: 2px;
     margin-top: 20px;
-    z-index: -2
 }
 
 .forside-box, .forside-tekst, .bluebox-one {
@@ -264,6 +265,7 @@ li.active {
     top: 75%;
     left: 88%;
     transform: translate(-50%, -50%);
+    
 }
 
 .knaptekst {
@@ -709,6 +711,8 @@ input[type=checkbox] + label:active:before{
     .rightcolumn {width: 100%; margin-bottom: 20px;}
     .leftcolumn-two {width: 100%;}
     .rightcolumn-two {width: 100%;}
+    .calender {width: 100%; }
+    .calender-heart {display: none;}
 }
 
 /* Mobil/tablet */
@@ -794,7 +798,12 @@ input[type=checkbox] + label:active:before{
     
     .btn-two {
         left: 85%;
+        z-index: 1;
     }
+}
+
+a {
+    z-index: 200;
 }
 
 
