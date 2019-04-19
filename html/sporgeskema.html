@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Dit spørgeskema</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/css.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo|Roboto+Mono" rel="stylesheet">
@@ -19,11 +19,11 @@
     
     <article class="topnav">
        <article>
-        <ul>
+        <ul class="center">
           <a href="hjem.html">  <li>Hjem</li></a>
           <a href="sporgeskema.html" >  <li class="active">Dit spørgeskema</li></a>
-          <a href=""><li>Din udvikling</li></a>
-          <a href="kollegaer.html"> <li>Kollegaer</li></a>
+          <a href="udvikling.html"><li>Din udvikling</li></a>
+          <a href=""> <li>Kollegaer</li></a>
           <a href="">  <li>Book tid</li></a>
           <a href="../index.html"> <li>Log ud</li></a>
         </ul>
@@ -31,7 +31,18 @@
             
             
     </article>
-    <article class="navbjaelke"></article>
+    <article class="navbjaelke skemabjaelke">
+    <article class="underbjaelke green"></article>
+    <article class="underbjaelke purple"></article>
+    <article class="underbjaelke red"></article>
+    <article class="underbjaelke blue"></article>
+    <ul class="skemaul">
+    <li class="skemanav">Højt drive</li> 
+    <li class="skemanav">Et stærkt team</li>
+    <li class="skemanav">God karma</li>
+    <li class="skemanav">Ha' det sjovt</li>
+    </ul>
+    </article>
    
    
     </article></article>
@@ -40,13 +51,13 @@
     
     
     <div class="topnav-two">
-  <a href="#home" >Hjem</a>
+  <a href="hjem.html" >Hjem</a>
   <div id="myLinks">
-    <a href="#dit-spoergeskema" >Dit spørgeskema</a>
-    <a href="#din-udvikling">Din udvikling</a>
+    <a href="sporgeskema.html" >Dit spørgeskema</a>
+    <a href="udvikling.html">Din udvikling</a>
     <a href="#kollegaer">Kolegaer</a>
     <a href="#book-tid">Book tid</a>
-    <a href="#log-ud">Log ud</a>
+    <a href="../index.html">Log ud</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunctionTwo()">
     <p class="burger-style">&#9776;</p>
@@ -54,7 +65,7 @@
 </div>
    
     
-     <script src="../javaScript/javaScript.js"></script>
+     
    
    
     <h1>Her kan du besvare dit spørgeskema</h1> <br>
@@ -219,7 +230,7 @@
             <input type="checkbox" id="sporgsmalcheck20">
             <label for="sporgsmalcheck20"></label>
             <input type="text" class="sporgsmalinput" placeholder="Giv gerne et eksempel...">
-            <p class="eksempelp">Eksempel: Jeg bliver altid til arbejdet er færdigt.</p>
+            <p class="eksempelp bottom">Eksempel: Jeg bliver altid til arbejdet er færdigt.</p>
             
         </article>
         <article class="right">
@@ -231,5 +242,5 @@
         
     </section>
     
-    
+    <script src="../javaScript/javaScript.js"></script>
 </body>
