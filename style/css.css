@@ -593,12 +593,7 @@ input[type=checkbox] + label:active:before{
 .kolright{
     text-align: center;
 }
-.kolvalg{
-    background-color: #e8e8e8;
-    border-radius: 2px;
-    margin-bottom: 5px;
-    text-align: center;
-}
+
 .kolwrapper{
     display: grid;
     grid-template-columns: repeat(2,49%);
@@ -626,6 +621,7 @@ input[type=checkbox] + label:active:before{
     border-radius: 2px;
     border: 0px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .kollabel{
@@ -736,6 +732,20 @@ input[type=checkbox] + label:active:before{
     color: #fff !important;
     width: 93%;
 }
+
+
+
+#kollegaanders{
+    opacity: 0.4;
+}
+#kollegabejamin{
+    opacity: 0.4;
+}
+#kollegalars{
+    opacity: 0.4;
+}
+
+
 /* Small PC/tablet screen  */
 
 @media only screen and (max-width: 1024px) {
