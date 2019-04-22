@@ -262,9 +262,10 @@ li.active {
     text-align: center;
     margin-top: 7px;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 88%;
     transform: translate(-50%, -50%);
+    
     
 }
 
@@ -303,6 +304,9 @@ li.active {
     left: 93%;
     transform: translate(-50%, -50%);
     width: 40%;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "heebo"
 }
 
 
