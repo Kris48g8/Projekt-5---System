@@ -7,7 +7,6 @@
 
 body {
     width: 90%;
-    background-color: whitesmoke;
     margin: auto;
 }
 
@@ -30,7 +29,6 @@ h1 {
     margin-right: auto;
     text-align: center;
     font-size: 3em;
-    float: inherit;
     padding-top: 45px;
     color: black;
     font-family: "roboto mono", sans-serif;
@@ -115,6 +113,7 @@ a:link {
     margin-left: 20px;
     float: left;
     clear: left;
+    margin-bottom: 20px;
     
 }
 
@@ -125,6 +124,7 @@ a:link {
     margin-right: 20px;
     float: right;
     clear: right;
+    margin-bottom: 20px;
 }
 
 img {
@@ -184,5 +184,31 @@ img {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    h2 {font-size: 25px;}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    .menu {width: 100%; position: relative; font-size: 10px; margin-bottom: 30px;}
+    
+    
+    .resnav {position: relative; text-align: center; }
+    
+    .resguide {
+        font-size: 30px; padding: 0; text-align: center; margin-left: 30px;
+    }
+    
+    .logo {display: none;}
+    
+    .tekstboks { width: 90%; text-align: center;}
+    
+    .farveboks {height: 80px; width: 100%}
+    
+    .imgcontainer {width: 100%; margin: 0; margin-bottom: 20px;}
+    
+    .imgcontainer2 {width: 100%; margin: 0; margin-bottom: 20px;}
 }
