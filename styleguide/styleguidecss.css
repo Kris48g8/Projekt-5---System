@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Template for forside */
+
+body {
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.logo {
+   float: left;
+    position: fixed;
+    width: 10em;
+    margin-left: 25px;
+   
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3em;
+    float: inherit;
+    padding-top: 45px;
+    color: black;
+    font-family: "roboto mono", sans-serif;
+}
+
+h2 {
+    font-family: "roboto mono", sans-serif;
+}
+
+h3 {
+    font-family: "roboto mono", sans-serif;
+}
+
+p {
+    font-family: "heebo", sans-serif;
+}
+
+.menu {
+    width: 20%;
+    margin-left: 2em;
+    position: fixed;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: black
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+.menubtn {
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.menubtn:hover {
+    transform: scale(1.2)
+}
+
+
+
+.tekstboks {
+    width: 70%;
+    height: 50em;
+    float: right;
+    font-size: 1em;
+}
+
+.broedtekst {
+    font-family: "heebo", sans-serif;
+    margin-top: 10px;
+}
+
+
+.h2eks {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.peks {
+    font-family: "heebo", sans-serif;
+    font-size: 20px;
+    
+}
+
+/* Underside rubrik */
+
+.imgcontainer {
+    position: relative;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    clear: left;
+    
+}
+
+.imgcontainer2 {
+    position: relative;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    clear: right;
+    
+}
+
+.imgportrait {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* farver */
+
+.farveboks {
+    width: 25%;
+    float: left;
+    margin: 5px;
+    height: 150px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.A6BB75 {
+    background-color: #A6BB75
+}
+
+.D26D75 {
+    background-color: #D26D75
+}
+
+.AA80AB {
+    background-color: #AA80AB
+}
+
+.D8A65A {
+    background-color: #D8A65A
+}
+
+.a6696AC {
+    background-color: #6696AC
+}
+
+.midt {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+    
+    
+}
