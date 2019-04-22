@@ -44,6 +44,10 @@ h3 {
     font-family: "roboto mono", sans-serif;
 }
 
+h4 {
+    font-family: "roboto mono", sans-serif;
+}
+
 p {
     font-family: "heebo", sans-serif;
 }
@@ -71,7 +75,7 @@ a:link {
 }
 
 .menubtn:hover {
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 
@@ -121,7 +125,12 @@ a:link {
     margin-right: 20px;
     float: right;
     clear: right;
-    
+}
+
+img {
+    max-width: 100%;
+    max-height: 220px;
+
 }
 
 .imgportrait {
@@ -176,6 +185,4 @@ a:link {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white
-    
-    
 }
