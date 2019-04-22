@@ -717,15 +717,16 @@ input[type=checkbox] + label:active:before{
 /* Autosave */
 .notifications {
     position: fixed;
-    right: 10px;
-    top: 10px;
+    right: 5%;
+    bottom: 10px;
     z-index: 9999 !important;
 }
 .notify {
     width: 300px;
     height: 37px;
-    background-color: #9baf60;
-    border-radius: 7px;
+    font-family: "heebo", sans-serif;
+    background-color: #a6bb75;
+    border-radius: 2px;
     box-shadow: 0 1px 4px #6b93ab;
     overflow: hidden;
     cursor: pointer;
@@ -733,11 +734,11 @@ input[type=checkbox] + label:active:before{
 }
 .info span {
     margin-top: 5px;
-    color: #fff !important;
+    color: #ffffff !important;
     width: 93%;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
-
-
 
 #kollegaanders{
     opacity: 0.4;

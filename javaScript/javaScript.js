@@ -63,20 +63,6 @@ function glemtkode() {
 }
 
 
-
-
-
-
-/* Kollega feedback valg */
-
-function kollegaValgt() {
-    document.getElementById("kolvalgt").innerHTML = "Kollega valgt"
-    document.getElementById("valgtekol").innerHTML = "Lars Nielsen"
-}
-
-
-
-
 //Autosave funktion
 
 
@@ -88,26 +74,13 @@ function manuelAutosaver() {
     window.setInterval(function() {
         if (active === false) {
             active = true;
-
-            //Made with jQuery giving it an fade effect.
-            //$('.notify').fadeIn();
-
-            //This is raw Javascript, calling the css display on an object. This case setting it to block(visible)
+            /* Javascript der kalder hvordan et css skal display i dette tilfælde "block"(visible) */
             document.getElementById('notifier').style.display = "block";
-
-            //This is a test to see if the function is working correctly in the console. You can remove this!
-            console.log("active now TRUE" + active);
         } else {
             active = false;
-
-            //Made with jQuery giving it an fade effect.
-            //$('.notify').fadeOut();
-
-            //This is raw Javascript, calling the css display on an object. This case setting it to none(invisible)
+            /* Javascript der kalder hvordan et css skal display i dette tilfælde "none"(invisible) */
             document.getElementById('notifier').style.display = "none";
 
-            //This is a test to see if the function is working correctly in the console. You can remove this!
-            console.log("active now FALSE" + active);
         }
-        }, 7500);
+        }, 2500);
 }
