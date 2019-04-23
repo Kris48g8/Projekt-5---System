@@ -29,6 +29,14 @@ h1 {
     margin-top: 20px;
 }
 
+.roboto {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
 h2 {
     font-family: "Roboto Mono", sans-serif;
     font-size: 25px;
@@ -217,7 +225,7 @@ li {
 
 
 
-.active {
+.current {
     color: #AA80AB;
 }
 
