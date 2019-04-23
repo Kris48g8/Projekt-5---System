@@ -225,7 +225,7 @@ li {
 
 
 
-.current {
+a.current:visited {
     color: #AA80AB;
 }
 
